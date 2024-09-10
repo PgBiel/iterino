@@ -36,5 +36,4 @@ jobs:
           typst-version: ${{ matrix.typst-version }}
 
       - name: 🛠️ Compile test document
-        if: ${{ matrix.typst-version == 'v0.11.0' }}
         run: "typst compile test.typ"
