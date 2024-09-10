@@ -11,4 +11,4 @@
   iter.inspect.with(fn: v => if v == 3 { panic("don't") }),
   iter.to-array
 )
-#assert.eq(i, (2, 4, 5, 6, 7, 8, 9, 10, 11))
+#assert.eq(i, (1, 2, 4, 5, 6, 7, 8, 9, 10, 11))
