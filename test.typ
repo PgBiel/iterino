@@ -1,4 +1,4 @@
-#import "iterino.typ" as iter
+#import "src/lib.typ" as iter
 
 #let i = iter.from-array((1, 2, 3))
 #let i = iter.map(i, fn: x => x + 1)
